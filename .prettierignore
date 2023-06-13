@@ -1,0 +1,5 @@
+.vscode
+build
+scripts
+contracts/ECDSA.sol
+*.d.ts
