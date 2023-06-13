@@ -174,40 +174,6 @@ module.exports = {
         symbol: 'ETH',
         decimals: 18,
       },
-      dai: {
-        instanceAddress: {
-          100: '0x76D85B4C0Fc497EeCc38902397aC608000A06607',
-          1000: '0xCC84179FFD19A1627E79F8648d09e095252Bc418',
-          10000: '0xD5d6f8D9e784d0e26222ad3834500801a68D027D',
-          100000: '0x407CcEeaA7c95d2FE2250Bf9F2c105aA7AAFB512',
-        },
-        tokenAddress: '0xdc31Ee1784292379Fbb2964b3B9C4124D8F89C60',
-        symbol: 'DAI',
-        decimals: 18,
-      },
-      cdai: {
-        instanceAddress: {
-          5000: '0x833481186f16Cece3f1Eeea1a694c42034c3a0dB',
-          50000: '0xd8D7DE3349ccaA0Fde6298fe6D7b7d0d34586193',
-          500000: '0x8281Aa6795aDE17C8973e1aedcA380258Bc124F9',
-          5000000: '0x57b2B8c82F065de8Ef5573f9730fC1449B403C9f',
-        },
-        tokenAddress: '0x822397d9a55d0fefd20F5c4bCaB33C5F65bd28Eb',
-        symbol: 'cDAI',
-        decimals: 8,
-      },
-      usdc: {
-        instanceAddress: {
-          0.1: '0x119E1DAc9a606cAA7F331d1f45b78BB4194135e6',
-          100: '0x05E0b5B40B7b66098C2161A5EE11C5740A3A7C45',
-          1000: '0x23173fE8b96A4Ad8d2E17fB83EA5dcccdCa1Ae52',
-          10000: undefined,
-          100000: undefined,
-        },
-        tokenAddress: '0x07865c6E87B9F70255377e024ace6630C1Eaa37F',
-        symbol: 'USDC',
-        decimals: 6,
-      },
       usdt: {
         instanceAddress: {
           100: '0x538Ab61E8A9fc1b2f93b3dd9011d662d89bE6FE6',
@@ -218,18 +184,7 @@ module.exports = {
         tokenAddress: '0xb7FC2023D96AEa94Ba0254AA5Aeb93141e4aad66',
         symbol: 'USDT',
         decimals: 6,
-      },
-      wbtc: {
-        instanceAddress: {
-          0.1: '0x242654336ca2205714071898f67E254EB49ACdCe',
-          1: '0x776198CCF446DFa168347089d7338879273172cF',
-          10: '0xeDC5d01286f99A066559F60a585406f3878a033e',
-          100: undefined,
-        },
-        tokenAddress: '0xC04B0d3107736C32e19F1c62b2aF67BE61d63a05',
-        symbol: 'WBTC',
-        decimals: 8,
-      },
+      }
     },
     netId10: {
       eth: {
