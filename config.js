@@ -176,7 +176,7 @@ module.exports = {
       },
       usdt: {
         instanceAddress: {
-          100: '0x1b98e8cfa0c451bf03e1d4700ff593f234d786da',
+          100: '0x1B98E8cfA0C451Bf03E1d4700FF593F234D786dA',
           1000: '0x94Be88213a387E992Dd87DE56950a9aef34b9448',
           10000: undefined,
           100000: undefined,
