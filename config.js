@@ -176,14 +176,15 @@ module.exports = {
       },
       usdt: {
         instanceAddress: {
-          100: '0x538Ab61E8A9fc1b2f93b3dd9011d662d89bE6FE6',
+          100: '0x1b98e8cfa0c451bf03e1d4700ff593f234d786da',
           1000: '0x94Be88213a387E992Dd87DE56950a9aef34b9448',
           10000: undefined,
           100000: undefined,
         },
-        tokenAddress: '0xb7FC2023D96AEa94Ba0254AA5Aeb93141e4aad66',
+        // tokenAddress: '0xb7FC2023D96AEa94Ba0254AA5Aeb93141e4aad66',
+        tokenAddress: '0x4E74F6b7ED15B2750F77483785D9c2a722C29188',
         symbol: 'USDT',
-        decimals: 6,
+        decimals: 18,
       }
     },
     netId10: {
